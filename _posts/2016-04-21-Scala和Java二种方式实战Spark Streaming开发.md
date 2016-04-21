@@ -16,11 +16,11 @@
 >对于集群而言，每隔exccutor一般肯定不只一个Thread，那对于处理Spark Streaming应用程序而言，每个executor一般分配多少core比较合适？根据我们过去的经验，5个左右的core是最佳的（段子:分配为奇数个core的表现最佳,例如：分配3个、5个、7个core等）
 接下来，让我们开始动手写写Java代码吧！
 
-## 第一步：
+##第一步：
 
 ![这里写图片描述](http://img.blog.csdn.net/20160421181437526)
 
-## 第二步：
+##第二步：
 
 ![这里写图片描述](http://img.blog.csdn.net/20160421181459698)
 
@@ -35,13 +35,13 @@
 ![这里写图片描述](http://img.blog.csdn.net/20160421181632143)
 
 ##第四步：我们就像对RDD编程一样，基于DStream进行编程，原因是DStream是RDD产生的模板，在Spark Streaming发生计算前，其实质是把每个Batch的DStream的操作翻译成为了RDD操作。
-## 1、flatMap操作：
+##1、flatMap操作：
 ![这里写图片描述](http://img.blog.csdn.net/20160421181703675)
 
-## 2、 mapToPair操作：
+##2、 mapToPair操作：
 ![这里写图片描述](http://img.blog.csdn.net/20160421181731394)
 
-## 3、reduceByKey操作：
+##3、reduceByKey操作：
 ![这里写图片描述](http://img.blog.csdn.net/20160421181840465)
 
 ##4、print等操作：
@@ -54,11 +54,11 @@
 
 # 二、Scala方式开发
 
-## 第一步，接收数据源：
+##第一步，接收数据源：
 
 ![这里写图片描述](http://img.blog.csdn.net/20160421182105867)
 
-## 第二步，flatMap操作：
+##第二步，flatMap操作：
 
 ![这里写图片描述](http://img.blog.csdn.net/20160421182126107)
 
