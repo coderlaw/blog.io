@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "milestone"
-description: "知之真切笃实处即是行，行之明觉精察处即是知 "
+description: "Life is short，You Need Spark "
 header-img: "img/zhihu.jpg"
 ---
 
@@ -11,7 +11,12 @@ header-img: "img/zhihu.jpg"
 </center>
 
 
-###代表作：
+### 代表作：
+1、《大话企业级Android应用开发》
+    2、《基于Android平台的商业软件——手机守护神开发全程实战》
+    3、《Android 4.0网络编程详解》
+    4、《细说Android NDK编程》
+    5、《Android开发三剑客——UML、模式与测试》
 
 
 
